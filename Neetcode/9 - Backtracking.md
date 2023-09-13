@@ -18,7 +18,7 @@
 - **use tail recursion to pass in the total sum as a variable instead of computing it on the fly**
 
 ## [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)  (2^n)
-- - since we don't want to include duplicates, we need to make sure when we don't include a particular index, the next element shouldn't be the same as well 
+- since we don't want to include duplicates, we need to make sure when we don't include a particular index, the next element shouldn't be the same as well 
 - **sort** first, then use two pointer method to eliminate the duplicates  
 
 ## [Permutations](https://leetcode.com/problems/permutations/) (n * n!)
@@ -28,6 +28,9 @@
 
 ## [Word Search](https://leetcode.com/problems/word-search/) (n * m * 4^n (four recursion calls))
 - learn the cleaner version of **DFS** 
+
+## [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)(2^n)
+- 
 
 
 

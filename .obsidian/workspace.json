@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neetcode/12 - 1-D DP.md",
+                "file": "Neetcode/9 - Backtracking.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neetcode/12 - 1-D DP.md",
+                "file": "Neetcode/9 - Backtracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neetcode/12 - 1-D DP.md",
+                "file": "Neetcode/9 - Backtracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neetcode/12 - 1-D DP.md"
+                "file": "Neetcode/9 - Backtracking.md"
+              }
+            }
+          },
+          {
+            "id": "b0fd01ad18744f26",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -169,17 +179,21 @@
   },
   "active": "fd2674c4f7f9a07d",
   "lastOpenFiles": [
-    "Neetcode/14 - Greedy.md",
-    "Neetcode/5 - Sliding Window.md",
     "Neetcode/12 - 1-D DP.md",
-    "Neetcode/6 - Linked List.md",
-    "Neetcode/11 - Graphs.md",
+    "Neetcode/14 - Greedy.md",
+    "Images/Pasted image 20230911212306.png",
+    "README.md",
+    "Neetcode/2 - Two Pointers.md",
     "Neetcode/9 - Backtracking.md",
+    "Neetcode/11 - Graphs.md",
+    "Pasted image 20230911212219.png",
+    "Images/Practice .pdf",
+    "Neetcode/6 - Linked List.md",
     "Neetcode/7 - Trees.md",
+    "Neetcode/5 - Sliding Window.md",
+    "Neetcode/3 - Stack.md",
     "Neetcode/4 - Binary Search.md",
     "Neetcode/1 - Array & Hashing.md",
-    "Neetcode/2 - Two Pointers.md",
-    "Neetcode/3 - Stack.md",
     "Leetcode/Techniques & Data Structures.md",
     "Leetcode/Algorithm.md",
     "Images/Pasted image 20230906212657.png",
@@ -197,14 +211,11 @@
     "10 - Heap",
     "12 - Backtracking.md",
     "d.md",
-    "Images/Pasted image 20230901202758.png",
-    "Pasted image 20230901202628.png",
     "Volo/Terraform.md",
     "Application/Bulletpoints.md",
     "Volo/Product Information.md",
     "Tunein/Golang.md",
     "[LeetCode.md",
-    "4 -.md",
     "Neetcode",
     "Images",
     "github-recovery-codes.txt",
