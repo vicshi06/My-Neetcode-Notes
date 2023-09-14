@@ -29,8 +29,8 @@
 ## [Word Search](https://leetcode.com/problems/word-search/) (n * m * 4^n (four recursion calls))
 - learn the cleaner version of **DFS** 
 
-## [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)(2^n)
-- 
+## [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)(n * 2^n)
+- understand the fact that each level would have many nodes. The number based on the number of substring that is a palindrome  
 
 
 

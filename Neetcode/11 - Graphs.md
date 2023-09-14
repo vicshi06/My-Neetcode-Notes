@@ -19,12 +19,20 @@
 - when the parents of the new edge are the same, it is the redundant edge. 
 - need the recursive find to make sure we have path compression 
 
-## [Clone Graph](https://leetcode.com/problems/clone-graph/description/)
+## [Clone Graph](https://leetcode.com/problems/clone-graph/description/) (n + m)
 - use a hashmap to map the old node to the new copy node 
 - **traversing neighbors for DFS**
 - since all the nodes are connected, use `dfs` to traverse all of the node's neighbors and return until the node is in the hashmap
-	- connect the neighbors with the new node 
+	- connect the neighbors with the new node her 
+- when we visit a node, we add that node into our map, so in the end, when we add all the nodes, we connect them together 
 
 ## [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)(n * m)
 - instead of doing **DFS** on every single node, start from the ocean sides and do **DFS** starting from the ocean nodes to see which nodes can be hit 
 - then, traverse all the nodes again and append the ones that are included in two ocean sets 
+
+## [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+- **BFS** to traverse the rotten oranges and use level algorithm to increase the time 
+- understand the requirements and the problem, the actual implementation isn't hard 
+
+## [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+- 
