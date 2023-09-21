@@ -48,6 +48,8 @@
 - use `legnth % k` to figure out the number of big chunk. `big_chunk = small_chunk_size + 1`
 - read through the answer to understand how to split the list based on the number of nodes 
 
+## [LRU Cache](https://leetcode.com/problems/lru-cache/)
+- 
 
 
 [[7 - Trees]]

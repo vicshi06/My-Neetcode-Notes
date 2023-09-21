@@ -30,9 +30,19 @@
 - instead of doing **DFS** on every single node, start from the ocean sides and do **DFS** starting from the ocean nodes to see which nodes can be hit 
 - then, traverse all the nodes again and append the ones that are included in two ocean sets 
 
-## [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+## [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)(n)
+- same idea as the previous question. We start from the border to significantly increase runtime 
+
+## [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)(n * m)
 - **BFS** to traverse the rotten oranges and use level algorithm to increase the time 
 - understand the requirements and the problem, the actual implementation isn't hard 
 
-## [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+## [Course Schedule](https://leetcode.com/problems/course-schedule/)
+- **Topological Sort**
+- **DFS**
+
+## [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+- **DFS** is a little different 
+
+## [Walls and Gates](https://leetcode.com/problems/walls-and-gates/)
 - 
