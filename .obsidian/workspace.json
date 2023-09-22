@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5960bde5234611f4",
+        "id": "99226daeea2d64cb",
         "type": "tabs",
         "children": [
           {
-            "id": "29f84a5c0c8d5e89",
+            "id": "c99310fa5626737b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neetcode/6 - Linked List.md",
+                "file": "Neetcode/12 - 1-D DP.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neetcode/6 - Linked List.md",
+                "file": "Neetcode/12 - 1-D DP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neetcode/6 - Linked List.md",
+                "file": "Neetcode/12 - 1-D DP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neetcode/6 - Linked List.md"
+                "file": "Neetcode/12 - 1-D DP.md"
               }
             }
           },
@@ -164,17 +164,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29f84a5c0c8d5e89",
+  "active": "c99310fa5626737b",
   "lastOpenFiles": [
-    "Neetcode/5 - Sliding Window.md",
-    "Neetcode/4 - Binary Search.md",
-    "Neetcode/6 - Linked List.md",
-    "Neetcode/9 - Backtracking.md",
     "Neetcode/12 - 1-D DP.md",
     "Neetcode/11 - Graphs.md",
-    "Neetcode/7 - Trees.md",
-    "README.md",
+    "Neetcode/9 - Backtracking.md",
+    "Neetcode/5 - Sliding Window.md",
     "Neetcode/14 - Greedy.md",
+    "README.md",
+    "Neetcode/7 - Trees.md",
+    "Neetcode/6 - Linked List.md",
+    "Neetcode/4 - Binary Search.md",
     "SOC",
     "Neetcode/3 - Stack.md",
     "Neetcode/2 - Two Pointers.md",

@@ -45,4 +45,5 @@
 - **DFS** is a little different 
 
 ## [Walls and Gates](https://leetcode.com/problems/walls-and-gates/)
-- 
+- start from the gates and do **BFS** to get to all the rooms. Their levels are their distance 
+- However, need to start **BFS** at once with all the gate since that guarantees the shortest distance for all the rooms 
