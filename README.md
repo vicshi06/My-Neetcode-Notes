@@ -1,6 +1,6 @@
 # My-Neetcode-Notes
 
-My personal notes for all the Neetcode + Leetcode questions.
+My personal notes for all the Leetcode questions.
 
 >Just off the top of my head. Master DFS and BFS. Like, be able to visualize the flow in your head. Memorize the code for each so you can type them out without thought (the code is very short). When solving the Leetcode DFS and BFS problem see when to use either. Dynamic Programming is just DFS + memorization. Backtracking is just DFS + pruning. Generating permutations/combinations/etc. is just DFS/BFS + saving state. The list goes on.
 >
