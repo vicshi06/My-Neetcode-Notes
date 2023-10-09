@@ -21,18 +21,15 @@
 - since we don't want to include duplicates, we need to make sure when we don't include a particular index, the next element shouldn't be the same as well 
 - **sort** first, then use two pointer method to eliminate the duplicates  
 
+---
 ## [Permutations](https://leetcode.com/problems/permutations/) (n * n!)
-- same logic. Appending to the set and pop so we can go up the recursion 
 - we want to iterate through all the numbers in the list but we should only continue if the number is not already in the list 
 - since permutations means we want to include all the elements but in different orders, we have to iterate through all the elements in `nums` for every node to ensure complete inclusion 
-
-## [Word Search](https://leetcode.com/problems/word-search/) (n * m * 4^n (four recursion calls))
-- learn the cleaner version of **DFS** 
 
 ## [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)(n * 2^n)
 - understand the fact that each level would have many nodes. The number based on the number of substring that is a palindrome  
 
 
-
+---
 [[11 - Graphs]]
 [[12 - 1-D DP]]

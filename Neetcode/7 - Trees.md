@@ -32,9 +32,6 @@
 ## [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)
 - understand the definition of [binary search tree]([Binary Search Tree - GeeksforGeeks](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)) 
 
-## [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/description/)
-- 
-
 ## [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
 - use **BFS** and the `len` of each queue to determine the size of each level 
 
