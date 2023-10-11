@@ -21,7 +21,7 @@
 - This makes sure that all the strings with the same key will belong to a same list 
 - Then return the values of the hash map 
 
-## [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/submissions/)
+## [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 - Remove the top `k` of the most frequent numbers
 - use `dict` to keep track of the count of each number 
 - use another `array` to covert the `dict` into the `array` that the index means the number of occurrence for that number 

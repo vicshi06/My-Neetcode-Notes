@@ -27,9 +27,14 @@
 - since permutations means we want to include all the elements but in different orders, we have to iterate through all the elements in `nums` for every node to ensure complete inclusion 
 
 ## [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)(n * 2^n)
-- understand the fact that each level would have many nodes. The number based on the number of substring that is a palindrome  
-
+- we need to check whether each string is palindrome or not before we can traverse down that path. 
 
 ---
+
+## [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)(4^n * n)
+- using for loop to iterate through the digits so no duplicate and going down the recursion  
+
+
+--- 
 [[11 - Graphs]]
 [[12 - 1-D DP]]

@@ -15,11 +15,13 @@
 - all the basic height method for a tree (DFS + BFS)
 
 ## [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+- remember that we shouldn't only start from the root 
 - use bottom top approach 
 	- evaluating the sub tree and returning two information. Whether it is balanced and its height
 	- so we don't have to double count each node 
 
 ## [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+- remember that we shouldn't only start from the root 
 - same as the previous question, returns multiple variables to keep track of max length 
 
 ## [Same Tree](https://leetcode.com/problems/same-tree/)
