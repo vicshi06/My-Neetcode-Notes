@@ -11,7 +11,3 @@
 
 ## [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 - try to find the pattern, and use stack to slowly pop the elements 
-
-## [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
-- draw out the tree, find the pattern, then do recursion based on the finding 
-- need to pop the elements after the recursion to clean up the variable and go up the tree 
