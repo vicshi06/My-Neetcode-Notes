@@ -10,6 +10,9 @@
 - since we don't want to include duplicates, we need to make sure when we don't include a particular index, the next element shouldn't be the same as well 
 - **sort** first, then use two pointer method to eliminate the duplicates  
 
+## [Combinations](https://leetcode.com/problems/combinations/)
+- there is a slight optimization we can add to not going down the undesired branch 
+
 ## [Combination Sum](https://leetcode.com/problems/combination-sum/) (2^n)
 - we cannot blindly add all of the elements in the array to each leaf node. As this would lead to duplicate 
 - instead, use index `i` to iterate through the whole array
