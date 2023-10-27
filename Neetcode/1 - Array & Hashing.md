@@ -34,5 +34,14 @@
 - use `(r // 3) * 3 + c // 3` condition to place each element into respective box ![[Pasted image 20230824230720.png]]
 
 
+## [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)(n)
+- **Prefix Sum**
+	- declare 3 arrays `L`, `R`, `answer`
+	- the `L` keeps track of all the multiplication result on the left of the element, while `R` keeps track of all the multiplication results on the right of the element 
+	- we fill the `L` from left, keeping the first element 1. we fill the `R` from the right, keeping the last element 1 
+	- for `answer`, we just multiply the left element with the right element for the same index 
+
+
+--- 
 [[2 - Two Pointers]]
 [[3 - Stack]]

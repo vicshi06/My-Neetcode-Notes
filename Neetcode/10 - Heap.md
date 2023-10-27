@@ -16,6 +16,20 @@
 	- if the second value is bigger than the first, we can safely do the calculation 
 	- if it is not bigger, that means they have the same weight, they are destroyed and not added back to the heap 
 
+## [Task Scheduler](https://leetcode.com/problems/task-scheduler/description/)(n)
+- `maxHeap` and `queue`
+	- the `maxHeap` is used to finish the most frequent tasks first. so when we pop from it, it always gives us the most frequent task 
+	- the `queue` is used to keep track of the next available task. We use `[-count, idelTime]` in `queue` and increment our `time`, so when `time` is equal to `idelTime`, that particular task is available to schedule
+	- we use `queue` since we want FIFO so when we pop it is always the next available task
+- if the count is 0, which means there is no more that task. if it not 0, we append that task to `queue` with their next available time 
+
+## [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/)(n * logn)
+- first, we sort the rooms based on their start time 
+- we then use minheap to keep track of all the end time and append the first room's end time to the minheap 
+- for all the other tasks, we check if the end time for earliest room in minheap is smaller or equal to the end time for that task
+	- if true, we pop the earliest room to "assign" that room 
+- but we push the task's end time to the heap no matter what. 
+
 ## [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)(n * logk)
 - understand [QuickSort](https://www.geeksforgeeks.org/quick-sort/)
 	- two pointers: `pivot` and `left` 
